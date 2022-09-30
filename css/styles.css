@@ -1,9 +1,9 @@
 :root {
-    --primary: rgb(163, 168, 173);
-    --secondary: #727173;
+    --primary: rgb(20, 131, 243);
+    --secondary: #18496e;
     --text-color: #fff;
     --text-secondary: #000;
-    --text-tertiary: #5d5d5d;
+    --text-tertiary: #25339b;
 }
 
 *{
@@ -102,14 +102,14 @@
 
 /* Benefits section */
 
-#key-benefits h2{
+#key-benefits h2 {
     background-color: var(--secondary);
     text-align: center;
     padding: 2em;
     font-weight: 500;
 }
 
-.benefits{
+.benefits {
     display: flex;
     justify-content: space-around;
     padding: 4em;
@@ -126,7 +126,7 @@
     color: var(--text-tertiary);
 }
 
-.benefit .benefit-img{
+.benefit .benefit-img {
     width: 250px;
     height: 250px;
     border-radius: 50%;
@@ -135,15 +135,15 @@
     margin-bottom: 1em;
 }
 
-#benefit-1{
+#benefit-1 {
     background-image: url("../img/hrz-1.jpg");
 }
 
-#benefit-2{
+#benefit-2 {
     background-image: url("../img/hrz-2.jpg");
 }
 
-#benefit-3{
+#benefit-3 {
     background-image: url("../img/hrz-3.jpg");
 }
 
@@ -240,7 +240,7 @@
 }
 
 /* Call to Action Section */
-#cta{
+#cta {
     height: 300px;
     background: linear-gradient(rgba(0,0,0, 0.75), rgba(0,0,0, 0.75)),
     url("../img/hrz-6.jpg");
@@ -248,8 +248,8 @@
     background-size: cover;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    text-align: center;
     color: var(--text-color);
 }
 
